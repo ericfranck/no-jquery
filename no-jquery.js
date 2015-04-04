@@ -1,3 +1,7 @@
+/*
+
+*/
+
 //add class
 function addClass(el, className{
                    
