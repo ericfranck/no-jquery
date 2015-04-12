@@ -1,4 +1,5 @@
 /*
+
 no-jquery.js
 
 A set of global functions useful for working without jquery.
@@ -18,7 +19,7 @@ function addClass(el, className{
 
   
 //remove class
-function addClass(el, className{
+function removeClass(el, className{
                    
   if (el.classList)
     el.classList.remove(className);
