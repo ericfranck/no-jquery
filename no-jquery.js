@@ -30,7 +30,7 @@ function removeClass(el, className){
 
 
 //toggle class
-function toggleClass(el, className{
+function toggleClass(el, className){
                    
   if (el.classList) {
     el.classList.toggle(className);
