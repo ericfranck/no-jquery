@@ -15,7 +15,7 @@ function addClass(el, className){
   else
     el.className += ' ' + className; 
 
-});
+};
 
   
 //remove class
@@ -26,7 +26,7 @@ function removeClass(el, className){
   else
     el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
 
-});
+};
 
 
 //toggle class
@@ -50,7 +50,7 @@ function toggleClass(el, className{
     el.className = classes.join(' ');
   }
 
-});
+};
 
 
 //has class
