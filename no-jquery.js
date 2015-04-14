@@ -8,7 +8,7 @@ Compiled from http://youmightnotneedjquery.com/.  IE8+ compatibility.
 */
 
 //add class
-function addClass(el, className{
+function addClass(el, className){
                    
   if (el.classList)
     el.classList.add(className);
@@ -19,7 +19,7 @@ function addClass(el, className{
 
   
 //remove class
-function removeClass(el, className{
+function removeClass(el, className){
                    
   if (el.classList)
     el.classList.remove(className);
